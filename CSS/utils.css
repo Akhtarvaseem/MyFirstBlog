@@ -1,0 +1,75 @@
+/* Import css font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,300;1,400;1,600&display=swap');
+
+:root {
+    /* --blue: #1e90ff;
+    --white: #ffffff; */
+    --main-bg-color: brown;
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Rubik', sans-serif;
+    ;
+
+}
+
+.center{
+    text-align: center;
+}
+.m-auto {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.my-2{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+
+
+.btn {
+    padding: 3px 8px;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px 13px;
+    font-family: var(--font2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 4px 8px;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0px -10px;
+    font-family: var(--font2);
+}
+
+.form-box input,textarea{
+    margin: 5px;
+    width: 44vw;
+    padding: 6px;
+}

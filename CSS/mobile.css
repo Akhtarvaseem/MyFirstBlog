@@ -1,0 +1,67 @@
+@media screen and (max-width:912px) {
+    .navigation{
+        flex-direction: column;
+        
+    }
+
+    .nave-left{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nave-left span{
+        margin: 6px;
+        padding: 18px 6px;
+        border: 2px solid black;
+        border-radius: 50%;
+        background-color: #ffca61;
+        font-size: 21px;
+    }
+
+    .content-right{
+        display: none;
+    }
+
+    .home-articale{
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-articale img{
+        align-items: center;
+    }
+
+    .year-box {
+       
+        top: 7px;
+        display: flex;
+        font-size: 9px;
+        right: 12px;
+        left: 58vw;
+    }
+    .h1{
+        font-size: 25px;
+    }
+    .year-box div {
+        
+        padding: 3px;
+    }
+
+    .form-box input, textarea {
+        width: 100%;
+        padding: 6px;
+        margin: 7px -7px;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    /* .max-width-2 {
+        max-width: 86vw;
+    } */
+    .post-img{
+        height: auto;
+    }
+
+
+}

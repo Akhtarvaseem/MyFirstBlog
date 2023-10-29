@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navigation {
+    margin: 12px;
+    margin-bottom: 12px;
+    font-family: var(--font2);
+    /* height: 53px; */
+    background-color: #ff77104d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+}
+
+.content {
+    margin: 29px;
+    height: 100%;
+    background-color: #edf9fb75;
+    display: flex;
+    position: relative;
+}
+
+.content::after{
+    content: "";
+    background-image: url("/Img/img1\ \(1\).jpg");
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    position: absolute;
+
+}
+
+.content-left {
+    /* width: 50%; */
+    font-family: var(--font1);
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    padding: 34px;
+    z-index: 1;
+}
+
+.content-right {
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 230px;
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.nave-right{
+    padding: 18px;
+}
+.nave-left {
+    font-size: 23
+    px;
+    display: flex;
+    margin: 0px 8px;
+}
+.nave-left span{
+    margin: 6px;
+    padding: 18px 6px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #ffca61;
+    font-size: 21px;
+}
+.nave-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0px 87px;
+    font-size: 15px;
+}
+
+.nave-left ul li {
+    list-style: none;
+    margin: 0px 14px;
+    font-family: var(--font1);
+}
+
+.nave-left ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.nave-left ul li a:hover {
+    color: var(--main-bg-color);
+}
+
+.home-articales{
+
+    /* height: 445px; */
+    background-color: #e6b4d829;
+    padding: 8px;
+    margin: 19px;
+    position: relative;
+
+}
+
+.year-box{
+    width: 108px;
+    height: 80px;
+    /* background-color: red; */
+    position: absolute;
+    right: 10px;
+    top: 16px;
+}
+
+.year-box div{
+    margin-top: 12px;
+}
+.home-articale{
+display: flex;
+padding: 10px 15px;
+
+}
+
+.home-articale img{
+
+    border: 2px solid black;
+    width: 168px;
+    height: 198px;
+
+}
+
+.home-articale-content{
+    align-self: center;
+    padding: 0px 25px;
+}
+
+.home-articale-content a{
+    text-decoration: none;
+    color: brown;
+}
+.footer {
+
+    height: 50px;
+
+    background-color: #220f0fb0; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.footer a{
+    color: wheat;
+}
